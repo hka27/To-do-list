@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+body {
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+header {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.container {
+  background-color: blueviolet;
+  /* opacity: 0.5; */
+  min-width: 50vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  flex-grow: 1;
+  align-items: center;
+  display: flex;
+  font-size: 1.5rem;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 200px, 200px;
+}
+
+.form input,
+button {
+  font-size: 1.5rem;
+  border: white 2px solid;
+  border-radius: 6px;
+  margin: 2px;
+}
+section {
+  /* background-color: grey; */
+  flex-grow: 5;
+  display: flex;
+  justify-content: space-around;
+}
+.item {
+  /* background-color: green; */
+  width: 40vw;
+  display: flex;
+  font-size: 1.5rem;
+  border: white 2px solid;
+  border-radius: 6px;
+  margin: 2px;
+}
+.item span {
+  flex-grow: 3;
+}
+.item button {
+  font-size: 1.2rem;
+}
+.item button:hover {
+  background-color: black;
+  color: white;
+}
+.task-completed {
+  opacity: 0.4;
+}
